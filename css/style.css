@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 15px;
+    border-color: black;
+}
+
+body {
+background: linear-gradient(22%) plum,fuchsia,black;
+}
+
+header{
+padding: 25vw;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bolder;
+color: black;
+background-color: slategray 20%;
+}
+
+header h1 {
+
+}
+
+body ul {
+
+}
