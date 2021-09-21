@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(250deg, silver, black)
+}
+body h1 {
+  width: 100%;
+  position: center;
+  background: rgb(55, 37, 99);
+  padding: 10px;
+  color: rgb(8, 8, 8);
+  border-style: ridge;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+}
+footer {
+    width: 50%;
+    position: center;
+    
+}
