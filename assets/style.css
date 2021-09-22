@@ -52,6 +52,20 @@ footer {
    border-width: 3px;
    border-color: black;
  }
+footer img {
+ padding: 10px;
+ text-align: center;
+ border-style: double;
+ border-width: 9px;
+ border-color: rgb(124, 31, 131);
+}
+
+footer img {
+ border-radius: 5%;
+ padding: auto;
+ width: 200px;
+ height: 100px;
+}
  
 
 .container {
