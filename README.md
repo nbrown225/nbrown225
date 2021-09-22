@@ -19,7 +19,17 @@
 * Google Slides (for planning out website structure)
 * 
 ### My Process
+
+
+### Recources
+* For nav bar https://www.youtube.com/watch?v=8QKOaTYvYUA
+* For content boxeshttps://www.youtube.com/watch?v=IFai8qTKvEM
+
+### Terms Learned
+* calc()
+* linear-gradiant
 * 
+
 
 <!--
 

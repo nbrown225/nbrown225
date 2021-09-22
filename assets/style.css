@@ -1,44 +1,105 @@
 body {
-    background-image: linear-gradient(250deg, silver, black)
+  background: center,darkgray;
 }
-
-.header {
-  background: forestgreen;
-  font-family: 'Times New Roman', Times;
+.header h1 {
+  background-position: center;
+  font-family: 'Times New Roman', Times, serif
   font-weight: 600;
+  font-size: 60px;
   font-style: italic;
+  text-align: center;
 }
+
+
 h2 {
-  -ms-flex-align: center;
-  padding: 10px;
-  width: 70vw;
+  display: inline-block;
   text-align: center;
-  border-style: dashed;
-  border-width: 2px;
-  border-color: darkgray;
-  background-color: black;
-  color: rgb(191, 100, 207);
-}
+ }
 
-.Projects {
-  box-sizing: border-box;
-  width: 50px;
-  border: 15px solid blue;
-  border-radius: 5%;
-  padding: 10px;
-}
-.Projects a {
-  text-align: center;
-  background-color: black;
-  color: rgb(191, 100, 207);
-}
-
-footer {
+.about {
   flex-wrap: wrap;
   padding: 10px;
   text-align: center;
-  border-style: solid;
-  border-width: 1px;
+  border-style: groove;
+  border-width: 8px;
+  border-color: black;
+}
+.about h2 {
+  text-align: center;
+  justify-content: center;
+}
+img {
+  padding: 10px;
+  text-align: center;
+  border-style: double;
+  border-width: 9px;
+  border-color: rgb(124, 31, 131);
+}
+
+img {
+  border-radius: 5%;
+  padding: auto;
+  width: 450px;
+  height: 500px;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   text-align: center;
+   border-style: groove;
+   border-width: 3px;
+   border-color: black;
+ }
+ 
+
+.container {
+  position: relative;
+  display: inline-block;
+  width: 950px;
+  height: 400px;
+  margin: auto;
+  background: black;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.container .box1 {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: blue;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+.container .box2 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: blue;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+.container .box3 {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: blue;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 12px;
+  flex-wrap: wrap;
 }
 
 nav::after {
@@ -62,9 +123,11 @@ nav li {
   position: relative;
 }
 nav a {
-  color: blue;
+  color: purple;
   text-decoration: none;
   font-weight: bolder;
+  font-size: large;
+  text-align: center;
 }
 
 nav :hover {
