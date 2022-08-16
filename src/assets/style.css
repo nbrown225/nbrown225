@@ -12,3 +12,27 @@ body{
     display: flex;
     flex-direction: column;
 }
+/* ----------------NAVIGATION----------------------- */
+nav{
+    height: 7vh;
+    width: auto;
+    background-color: #673ab7;
+    margin-bottom: 2vh;
+}
+.nav-container{
+    background-color: #673ab7;
+}
+i{
+    background-color: #673ab7;
+}
+ul{
+    list-style: none;
+    background-color: #673ab7;
+}
+li{
+    margin-left: 2rem;
+    background-color: #673ab7;
+    width: 4vw;
+    font-weight: bolder;
+    font-size: 11pt;
+}

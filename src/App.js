@@ -1,10 +1,10 @@
 // import logo from './logo.svg';
 import './App.css';
-
+import Nav from './components/Nav/nav';
 function App() {
   return (
     <div>
-      nav
+      <Nav></Nav>
     <main>
       main / about
     </main>
