@@ -12,6 +12,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 /* ----------------NAVIGATION----------------------- */
 nav{
     height: 7vh;
@@ -36,3 +37,41 @@ li{
     font-weight: bolder;
     font-size: 11pt;
 }
+
+/* ----------------ABOUT SECTION---------------------------- */
+main{
+    width: 85vw;
+    height: 80vh;
+    margin: auto;
+    background-color: #00897b
+}
+h2{
+    background-color: #00897b 
+}
+.about-img{
+    height: 50vh;
+    width: 25vw;
+}
+#about-info,
+#about-img{
+    margin-top: 8vh;
+    height: 65vh;
+}
+#about-info{
+    margin-left: 7vw;
+}
+#about-p{
+    line-height: 5vh;
+}
+
+/* -----------Footer-------------- */
+#footer{
+    margin-bottom: 0px;
+    margin-top: 4vh;
+    height: 7vh;
+}
+/* 
+    height: 7vh;
+    width: auto;
+    background-color: #673ab7;
+    margin-bottom: 2vh; */

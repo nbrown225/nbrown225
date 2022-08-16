@@ -1,17 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
+import About from './components/About/about';
 import Nav from './components/Nav/nav';
+import Footer from './components/Footer/footer'
 function App() {
   return (
     <div>
       <Nav></Nav>
     <main>
-      main / about
+      <About></About>
     </main>
-    recent work
-    contact
-    resume
-    footer
+
+    <Footer></Footer>
   </div>
   );
 }
