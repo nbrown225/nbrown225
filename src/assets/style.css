@@ -1,0 +1,14 @@
+/* ---------main page--------------- */
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    background-color: rgba(55, 71, 79, 0.616);    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: mediumspringgreen;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
